@@ -702,7 +702,7 @@ color: var(--color-primary);
   color: var(--color-primary);
 }
 
-.modal-fild {
+.modal-field {
   margin-bottom: 8px;
 }
 
@@ -747,7 +747,7 @@ color: var(--color-primary);
   transition: fill var(--transition);
 }
 
-.modal-fild-text {
+.modal-field-text {
   margin-bottom: 16px;
 }
 
