@@ -411,13 +411,12 @@ body {
 }
 
 .footer-title {
-  font-weight: 500;
+  font-family: Roboto;
   font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
   color: var(--invert-color);
-  margin-top: 0;
-  margin-bottom: 16px;
 }
 
 .footer-list {
@@ -499,17 +498,25 @@ body {
   border-radius: 4px;
   border: none;
   padding: 8px 24px;
-  color: var(--invert-color);
 
   font-family: Roboto;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.64px;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+color: var(--invert-color);
   cursor: pointer;
   transition: background-color var(--transition);
 }
 
+.footer-name {
+  font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.32px;
+  color: var(--invert-color);
+}
 .footer-btn-icon {
   margin-left: 16px;
   fill: var(--invert-color);
@@ -636,7 +643,6 @@ color: var(--color-primary);
   height: 100%;
   background-color: rgba(46, 47, 66, 0.4);
   transition: opacity var(--transition), visibility var(--transition);
-  padding: 72px 24px 24px 24px;
 }
 
 .modal {
@@ -647,7 +653,7 @@ color: var(--color-primary);
   transition: transform var(--transition);
   width: 408px;
   min-height: 584px;
-  
+  padding: 72px 24px 24px 24px;
 
   background: #fcfcfc;
   border-radius: 4px;
@@ -800,7 +806,7 @@ color: var(--color-primary);
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: var(--cusromers-color);
+  color: var(--customers-color);
 }
 
 .privacy-link {
