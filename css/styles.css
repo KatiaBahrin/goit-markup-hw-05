@@ -506,7 +506,6 @@ body {
   letter-spacing: 0.04em;
   color: var(--invert-color);
   cursor: pointer;
-  background-color var(--transition);
 }
 
 .footer-name {
@@ -663,7 +662,7 @@ color: var(--color-primary);
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.backdrop.is-hiden .modal {
+.backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0);
 }
 
@@ -800,6 +799,7 @@ color: var(--color-primary);
 .modal-check {
   width: 16px;
   height: 16px;
+  display: none;
 }
 
 .check-text {
@@ -861,6 +861,4 @@ color: var(--color-primary);
 .submit-btn:focus {
   background-color: var(--color-active);
 }
-
-
 
